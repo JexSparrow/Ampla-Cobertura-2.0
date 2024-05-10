@@ -31,13 +31,14 @@
 h1 {
     color: #5D5D7D;
 
-    font-size: 70px;
+    font-size: 78px;
     font-weight: 400;
     line-height: 80px;
     text-align: left;
 
-    width: 368px;
+    width: 84%;
     height: 160px;
+
 }
 
 p {
@@ -81,7 +82,7 @@ header {
 }
 
 .links-topo {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 400;
     line-height: 41.5px;
     text-align: left;
@@ -144,20 +145,21 @@ button:hover {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 55px;
         line-height: 52px;
         height: 120px;
         width: auto;
         text-align: center;
         padding: 8px;
+        margin-bottom: 2vh auto;
 
     }
 
     p {
-        font-size: 14px;
-        line-height: 24px;
-        height: 96px;
-        width: 296px;
+        font-size: 24px;
+        line-height: 35px;
+        height: auto;
+        width: auto;
         text-align: center;
         margin: 14px 0 14px 0;
         display: block;
@@ -166,7 +168,7 @@ button:hover {
 
     button {
         display: block;
-        margin: 0 auto;
+        margin: 2vh auto;
     }
 
     #foto {
@@ -181,4 +183,29 @@ button:hover {
 
 
 
+}
+
+@media screen and (max-width: 395px){
+    .Menu-Esquerda {
+        height: 50vh;
+        margin: 1vh auto;
+        padding: 5%;
+        width: 100vw;
+    
+    h1 {
+
+        font-size: 40px;
+        width: auto;
+        margin-bottom: 1vh;
+    }
+
+    p {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    button {
+        width: 70%;
+        margin-top: 5%;
+    }
 }
