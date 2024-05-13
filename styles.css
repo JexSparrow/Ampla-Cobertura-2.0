@@ -210,3 +210,19 @@ button:hover {
         margin-top: 5%;
     }
 }
+
+@media screen and (max-width: 290px){
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+    p {
+        font-size: 20px;
+        width: 95%;
+        height: auto;
+    }
+
+
+
+}
